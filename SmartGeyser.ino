@@ -1,7 +1,7 @@
 // Define Blynk template ID, name, and auth token
-#define BLYNK_TEMPLATE_ID "TMPL3LkQVk-qu"
-#define BLYNK_TEMPLATE_NAME "ENERGY METER"
-#define BLYNK_AUTH_TOKEN "r_1eYfdNnLRcim3rhPvXw9LMHZS9drXb"
+#define BLYNK_TEMPLATE_ID "########"
+#define BLYNK_TEMPLATE_NAME "#######"
+#define BLYNK_AUTH_TOKEN "#########"
 
 // Enable serial prints (comment out to disable)
 #define BLYNK_PRINT Serial
@@ -36,8 +36,8 @@ int last_temp_button_upstate = HIGH;
 int last_temp_button_downstate = HIGH;
 
 // WiFi credentials
-char ssid[] = "Nooh";
-char pass[] = "a2s9cthn";
+char ssid[] = "####"; // wifi name
+char pass[] = "#####"; // wifi password
 
 int Val;
 int newval;
